@@ -9,12 +9,18 @@
  */
 package yuanjun.chen.spring.ioc.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import yuanjun.chen.spring.ioc.model.aware.User;
+import yuanjun.chen.spring.ioc.model.aware.User2;
+
 /**
  * @ClassName: Car
  * @Description: 简单pojo
  * @author: 陈元俊
  * @date: 2018年9月27日 下午2:26:36
  */
+@Service
 public class Car {
     private String brand;
 
